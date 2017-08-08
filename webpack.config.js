@@ -21,9 +21,9 @@ if (NODE_ENV === 'prod') {
 
 var map = {
   '0': {
-    entry: './TargetsManagement/src/entry.js',
+    entry: './Goals/src/entry.js',
     output: {
-      path: path.resolve(__dirname, 'TargetsManagement/prototype/js'),
+      path: path.resolve(__dirname, 'Goals/prototype/js'),
       filename: 'bundle.js'
     }
   },
